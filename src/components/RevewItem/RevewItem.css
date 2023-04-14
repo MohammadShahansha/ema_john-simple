@@ -1,6 +1,40 @@
 .revew-item{
     width: 600px;
+    height: 110px;
     border: 1px solid #95a0a7;
     border-radius: 8px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.revew-item img{
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+.revew-details p{
+    margin: 0 5px;
+}
+
+.showOrderInfo{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+.revew-item button{
+    margin-right: 12px;
+
+}
+.delete-button{
+    background-color: #EB5757;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+.color{
+    color: #FF9900;
+}
+.order-quantity{
+    color: #FF9900;
 }
