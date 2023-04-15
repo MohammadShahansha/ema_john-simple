@@ -27,14 +27,22 @@
 
 }
 .delete-button{
-    background-color: #EB5757;
+    background-color: #f79797;
     border-radius: 50%;
     width: 55px;
     height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .color{
     color: #FF9900;
 }
 .order-quantity{
     color: #FF9900;
+}
+.dlt-icon{
+    color: #EB5757;
+    width: 30px;
+    height: 30px;
 }
