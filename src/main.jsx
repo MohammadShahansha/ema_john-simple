@@ -13,6 +13,7 @@ import ManageOrder from './components/ManageOrder/ManageOrder';
 import Login from './components/Login/Login';
 import Order from './components/Order/Order';
 import cartProductsLoader from './loaders/CartProductsLoader';
+import CheckOut from './components/CheckOut/CheckOut';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         path:"/orderRe",
         element:<Order></Order>,
         loader: cartProductsLoader
+      },
+      {
+        path:"/checkout",
+        element:<CheckOut></CheckOut>
       },
       {
         path:"/manage",

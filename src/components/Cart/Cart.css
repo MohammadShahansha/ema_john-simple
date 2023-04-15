@@ -6,3 +6,10 @@
     position: sticky;
     top: 0;
 }
+.clearCart{
+    width: 90%;
+    background-color: #FF3030;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
